@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محاوراتي | SimuChat AI</title>
+    <style>
+        /* سيتم وضع الكود في القسم التالي */
+    </style>
+</head>
+<body>
+    <div id="app-container">
+        <div id="sidebar">
+            <h2>مجموعاتي 💬</h2>
+            <div class="group-list">
+                <div class="group-item active">
+                    <h3>جروب العائلة AI</h3>
+                    <p>أنت: ما هي خططكم لعيد الأضحى؟</p>
+                </div>
+                <div class="group-item">
+                    <h3>مجموعة الدراسة (المدرسة)</h3>
+                    <p>أحمد النجيب: لا تنسوا مراجعة الفصل 5.</p>
+                </div>
+                <div class="group-item">
+                    <h3>أصدقاء العمل الخياليون</h3>
+                    <p>المشرف: اجتماع الساعة 10 صباحاً.</p>
+                </div>
+            </div>
+            <button class="new-group-btn">+ إنشاء مجموعة جديدة</button>
+        </div>
+
+        <div id="chat-window">
+            <header>
+                <h1>جروب العائلة AI 👨‍👩‍👧‍👦</h1>
+                <span class="member-count">3 أعضاء (أبي، أمي، أختي)</span>
+            </header>
+            
+            <div id="messages-area">
+                <div class="message incoming ai-dad">
+                    <span class="sender-name">الأب (AI)</span>
+                    <p>السلام عليكم جميعاً. هل الجميع بخير اليوم؟</p>
+                </div>
+                <div class="message outgoing">
+                    <span class="sender-name">أنت</span>
+                    <p>وعليكم السلام يا أبي، نعم نحن بخير الحمد لله.</p>
+                </div>
+                <div class="message incoming ai-mom">
+                    <span class="sender-name">الأم (AI)</span>
+                    <p>لا تنسوا أن تتناولوا طعاماً صحياً! 🍎</p>
+                </div>
+                </div>
+
+            <div id="input-area">
+                <input type="text" placeholder="اكتب رسالتك هنا..." />
+                <button>إرسال 🚀</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
